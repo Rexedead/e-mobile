@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="WIFI Settings">
+        <EditTextPreference
+                android:name="SSID"
+                android:title="SSID"
+                android:key="ssid"
+                android:defaultValue="trad.rozn/shop"/>
+        <EditTextPreference
+                android:name="Password"
+                android:title="Password"
+                android:key="pw"
+                android:defaultValue="i159875321"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="URL Settings">
+        <EditTextPreference
+                android:name="URL"
+                android:title="URL"
+                android:key="weburl"
+                android:defaultValue="e-tech.estniy.ru:81"
+                />
+
+    </PreferenceCategory>
+</PreferenceScreen>
